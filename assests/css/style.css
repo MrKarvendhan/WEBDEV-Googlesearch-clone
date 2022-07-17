@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Logo */
+
+.logo{
+    text-align: center;
+    margin-top: 140px;
+}
+
+/* Search Input */
+
+.google-search input{
+    margin-top: 20px;
+    width: 600px;
+    padding: 15px 50px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background: url(https://seeklogo.com/images/G/google-mic-logo-33133A4F5F-seeklogo.com.png) no-repeat, 
+    url(../images/search.svg) no-repeat;
+    background-size: 18px;
+    background-position: right 15px center, left 15px center;
+}
+
+/* Buttons */
+
+.btn{
+    margin-top: 30px;
+}
+
+.btn button{
+    border: none;
+    padding: 15px 20px;
+    margin-right: 10px;
+    color: #4e4e4e;
+}
+
+/* languages */
+
+ol.languages{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.languages li{
+    display: inline;
+    margin-right: 10px;
+    color: #4e4e4e;
+}
+
+ol.languages li > a{
+    text-decoration: none;
+    color: #4086f4;
+}
+
+ol.languages li > a:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 20px 30px;
+    background-color: rgb(236, 230, 230);
+    border-top: 1px solid #c2c2c2;
+}
+
+footer li{
+    font-size: 13px;
+    color: #4e4e4e;
+    display: inline;
+    margin-right: 30px;
+    
+}
